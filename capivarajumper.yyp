@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -39,6 +39,8 @@
   },
   "name":"capivarajumper",
   "resources":[
+    {"id":{"name":"obj_capibara","path":"objects/obj_capibara/obj_capibara.yy",},},
+    {"id":{"name":"obj_plataforma","path":"objects/obj_plataforma/obj_plataforma.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"sfx_bip","path":"sounds/sfx_bip/sfx_bip.yy",},},
     {"id":{"name":"sfx_jump","path":"sounds/sfx_jump/sfx_jump.yy",},},
