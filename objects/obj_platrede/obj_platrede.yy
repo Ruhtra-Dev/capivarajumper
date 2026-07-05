@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_plataforma",
+  "%Name":"obj_platrede",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_plataforma",
+  "name":"obj_platrede",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_plataforma",
+    "path":"objects/obj_plataforma/obj_plataforma.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_plat_horiz_1",
-    "path":"sprites/spr_plat_horiz_1/spr_plat_horiz_1.yy",
+    "name":"spr_plat_movel",
+    "path":"sprites/spr_plat_movel/spr_plat_movel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
