@@ -18,12 +18,19 @@ if (cam_y>y)
 //aumentado o limite da camera para cima junto da posição da capivara
 camera_set_view_pos(view_camera[0], 0, cam_y-160)
 //se o player cair um pouco a mais da borda inferior da camera, o jogo reseta
-if (y>camera_get_view_y(view_camera[0])+380) game_restart()
-
+if (y>camera_get_view_y(view_camera[0])+380)
+{
+    global.pontuacao=0
+    game_restart()
+}
 //show_debug_message(velv)
+
+if (velv<=0) global.pontuacao+=.1
+if (global.pontuacao>global.pontuacaomax) global.pontuacaomax=global.pontuacao
 
 if (keyboard_check_pressed(ord("R")))
 {
     global.acai=0
+    global.pontuacao=0
     game_restart()
 }
