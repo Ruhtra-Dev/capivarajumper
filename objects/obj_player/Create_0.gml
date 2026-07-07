@@ -3,6 +3,8 @@ velvmax=4.6
 grav=.10
 velh=0
 
+sprite_index=global.player
+
 //movendo horizontalmente
 movimento=function()
 {
@@ -22,7 +24,10 @@ movimento=function()
         //eu pulo
         velv=0
         velv-=velvmax
+        instance_create_layer(x, y, "vfx", obj_vfx)
         plat_colocada=0
+        var _pitch=random_range(.7, 1.1)
+        audio_play_sound(sfx_jump, 0, 0, , , _pitch)
         if (chao.tipo==1)
         {
             chao.cair=true

@@ -12,8 +12,3 @@ if (tipo==0)
     }
     else modo=0
 }
-
-else
-{
-    //_pontmax=lerp(0, global.pontuacaomax, .1)
-}

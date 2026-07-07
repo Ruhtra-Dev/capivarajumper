@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"capivarajumper",
   "resources":[
@@ -47,7 +47,11 @@
     {"id":{"name":"obj_platfolha","path":"objects/obj_platfolha/obj_platfolha.yy",},},
     {"id":{"name":"obj_platrede","path":"objects/obj_platrede/obj_platrede.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_radomiser","path":"objects/obj_radomiser/obj_radomiser.yy",},},
+    {"id":{"name":"obj_shop","path":"objects/obj_shop/obj_shop.yy",},},
+    {"id":{"name":"obj_skin","path":"objects/obj_skin/obj_skin.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
+    {"id":{"name":"obj_vfx","path":"objects/obj_vfx/obj_vfx.yy",},},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_record","path":"rooms/rm_record/rm_record.yy",},},
